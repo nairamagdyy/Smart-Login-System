@@ -1,0 +1,22 @@
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="d-flex justify-content-center align-items-center">
+        <div class="card w-50 for-shadow text-center mt-5 pb-5 d-flex justify-content-center align-items-center">
+            <h1 class="pt-5">Smart Login System</h1>
+            <input type="text" class="form-control w-85 my-2" id="loginEmail" placeholder="Enter your email">
+            <input type="text" class="form-control w-85 my-2" id="loginPassword" placeholder="Enter your password">
+            <p class="text-danger d-none" id="inCorrect">Incorrect data please try again</p>
+            <p class="text-danger d-none" id="Required">Inputs Required</p>
+            <a class="btn btn-outline-info my-3 w-85" id="login" onclick="login()">Login</a>
+            <p class="text-white">Don’t have an account? <a href="signup.html" class="text-white"> SignUp</a></p>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+
+
+</body>
